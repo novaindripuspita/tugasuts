@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".detailmahasiswa">
+    
+    <ImageView
+        android:id="@+id/img_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="230dp" />
+    <TextView
+        android:layout_width="80dp"
+        android:text="NIM"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/id_nimdetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Nama"/>
+    <TextView
+        android:id="@+id/namadetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="No Hp"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/nohpdetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+</LinearLayout>
